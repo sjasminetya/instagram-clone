@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app style="background: #e9edf2;">
     <div class="d-flex">
         <v-icon large color="black" class="icon">mdi-instagram</v-icon>
         <h1 class="instagram">Instagram</h1>

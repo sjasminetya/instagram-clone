@@ -2,10 +2,10 @@
   <v-app>
     <v-container fluid>
       <v-row>
-        <v-col lg="3" style="border: 1px solid red" class="profile-side">
+        <v-col lg="3" class="profile-side">
           <SideProfile />
         </v-col>
-        <v-col lg="9"></v-col>
+        <v-col lg="9" style="border: 1px solid red"></v-col>
       </v-row>
     </v-container>
   </v-app>
@@ -33,6 +33,6 @@ export default {
 
 .profile-side {
   min-height: 100vh;
-  background: #fffdfe;
+  background: #e9edf2;
 }
 </style>
