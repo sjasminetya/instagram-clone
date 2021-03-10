@@ -5,9 +5,10 @@
         <v-col lg="3" class="profile-side">
           <SideProfile />
         </v-col>
-        <v-col lg="9" style="border: 1px solid red">
+        <v-col lg="9">
           <Header />
           <hr>
+          <Main />
         </v-col>
       </v-row>
     </v-container>
@@ -17,11 +18,13 @@
 <script>
 import Header from './components/Header'
 import SideProfile from './components/SideProfile'
+import Main from './components/Main'
 export default {
   name: 'App',
   components: {
     SideProfile,
-    Header
+    Header,
+    Main
   }
 };
 </script>
