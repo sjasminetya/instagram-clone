@@ -21,5 +21,5 @@ npm run serve
 
 ## Screenshots
 <div align="center">
-  <img src="screenshots/instagram.png" width="400">
+  <img src="screenshots/instagram.png" width="800">
 </div>
