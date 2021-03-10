@@ -1,11 +1,11 @@
 <template>
     <v-app-bar color="white" dense style="padding: 20px; height: fit-content; box-shadow: none;">
         <v-text-field
-            solo
+            outlined
             label="Search"
             prepend-inner-icon="search"
             append-icon="mic_none"
-            style="padding-top: 20px;"
+            style="margin-top: 30px;"
         ></v-text-field>
         <v-spacer></v-spacer>
         <v-btn depressed class="btn-add"><v-icon medium>add</v-icon> Create New Post</v-btn>
