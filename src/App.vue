@@ -41,6 +41,6 @@ export default {
 
 .profile-side {
   min-height: 100vh;
-  background: #e9edf2;
+  background: #f8f9f9;
 }
 </style>
